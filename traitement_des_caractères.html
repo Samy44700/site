@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Codage des caractères.</title>
+	<link rel="icon" href="icône_site.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="icône_site.ico" type="image/x-icon">
+	<link rel="stylesheet" href="styles.css">
+	<title>Codage des caractères</title>
+    <style>
+        body {
+            font-size: 14px; /* Baisse de la taille de la police */
+        }
+    </style>
+</head>
+<body>
+    <p><strong>Caractères ASCII et Hexadécimaux</p></strong>
+    
+    <p>a) Lettres de A à Z et a à z</p>
+    <ol>
+        <li>Majuscules : A - Z : 41 - 5A (Hex)</li>
+        <li>Minuscules : a - z : 61 - 7A (Hex)</li>
+    </ol>
+    
+    <p>b) Autres caractères</p>
+    <ol>
+        <li>& : 26 (Hex)</li>
+        <li>" : 22 (Hex)</li>
+        <li>’ : C1 (UTF-8)</li>
+        <li>( : 28 (Hex)</li>
+        <li>- : 2D (Hex)</li>
+        <li>_ : 5F (Hex)</li>
+        <li>@ : 40 (Hex)</li>
+        <li>] : 5D (Hex)</li>
+    </ol>
+
+    <p>c) Caractères accentués</p>
+    <ol>
+        <li>é : E9 (ISO-8859-1), C3 A9 (UTF-8)</li>
+        <li>è : E8 (ISO-8859-1), C3 A8 (UTF-8)</li>
+        <li>ç : E7 (ISO-8859-1), C3 A7 (UTF-8)</li>
+        <li>à : E0 (ISO-8859-1), C3 A0 (UTF-8)</li>
+    </ol>
+
+    <p>d) Retours à la ligne</p>
+    <ol>
+        <li>Retour à la ligne : 0A (Hex)</li>
+        <li>Retour chariot : 0D (Hex)</li>
+        <li>Sous Windows : 0D 0A</li>
+    </ol>
+
+    <p>e) Encodage dans Notepad++</p>
+    <ol>
+        <li>ANSI : ISO-8859-1</li>
+        <li>UTF-8 : Trousseau de tous les caractères Unicode</li>
+        <li>UTF-8 sans BOM : Semblable à UTF-8 sans le Byte Order Mark</li>
+        <li>UTF-16 : Gère Unicode mais consomme plus d'espace</li>
+    </ol>
+
+    <p><strong>Conclusion :</strong> Les différents encodages affectent le stockage et l'affichage des caractères. L'éditeur hexadécimal peut être utilisé pour inspecter les valeurs hexadécimales.</p>
+
+<div class="top-row" style="display:flex; justify-content:space-between">
+        <button><a href="index.html">Retour</a></button>
+
+	<button><a href="à_propos.html">Page d'après</a></button>
+    </div>
+</body>
+</html>
