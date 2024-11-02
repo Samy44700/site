@@ -1,0 +1,1 @@
+Ce site a été fait pour servir de support à un cours de NSI (Numérique et sciences informatiques). Vous pouvez le consulter à l'adresse suivante : https://samy44700.github.io/site/. Bonne lecture/découverte ! 
